@@ -6,12 +6,321 @@
     <title>Portafolio Alfredo Saavedra(TEODEV)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="./assets/js/menu.js"></script>
   </head>
-  <body>
-    <h1>Alfredo Saavedra - Full Stack Developer</h1>
+
+  <body class="bg-gray-900">
+    <nav class="border-gray-700 bg-gray-900">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="https://teoisnotdead.github.io/"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img
+            src="./assets/img/teodev-fondo-oscuro-sin-leyenda.png"
+            class="h-8"
+            alt="TEODEV Logo"
+          />
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600 text-gray-400"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="flex flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 bg-gray-800"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 rounded md:bg-transparent text-[#25abe0]"
+                aria-current="page"
+                >Inicio</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent text-white hover:text-[#25abe0]"
+                >Proyectos</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent text-white hover:text-[#25abe0]"
+                >Experiencia</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent text-white hover:text-[#25abe0]"
+                >Contacto</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent text-white hover:text-[#25abe0]"
+                >CV</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
+    >
+      <div class="mr-auto place-self-center lg:col-span-7">
+        <h1
+          class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white"
+        >
+          Alfredo Saavedra <br />
+          <span class="text-3xl md:text-4xl xl:text-5xl text-[#25abe0]"
+            >Full Stack Developer</span
+          >
+        </h1>
+        <p class="max-w-2xl mb-6 lg:mb-8 md:text-lg lg:text-xl text-gray-400">
+          Tambien conocido como <span class="text-[#25abe0]">teo</span>, soy un
+          desarrollador web full stack con más de 5 años de experiencia en
+          frontend y 2 en backend, orientado al desarrollo de aplicaciones web.
+          Me especializo en tecnologías como Angular, React, Node.js, Express,
+          MongoDB, MySQL, entre otras.
+        </p>
+        <a
+          href="#"
+          class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg  bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 focus:ring-blue-900"
+        >
+          Proyectos
+          <svg
+            class="w-5 h-5 ml-2 -mr-1"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </a>
+        <a
+          href="#"
+          class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-700 rounded-lg hover:bg-gray-700 focus:ring-gray-800"
+        >
+          Contacto
+        </a>
+      </div>
+      <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+        <img
+          src="https://placehold.co/600x400/png"
+          alt="Imagen de perfil"
+        />
+      </div>
+    </section>
+
+    <section class="max-w-screen p-4 text-white">
+      <h2
+        class="mb-4 text-4xl font-bold tracking-tight leading-none text-white text-center"
+      >
+        Proyectos
+      </h2>
+
+      <div class="flex justify-center gap-4">
+        <div
+          class="max-w-sm bg-gray-800 border border-gray-700 rounded-lg shadow-md duration-200 hover:scale-105 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="https://placehold.co/600x400"
+              alt="CV"
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                CV
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-400">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              quis lorem ut libero malesuada feugiat.
+            </p>
+            <a
+              href="#"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800"
+            >
+              Ver repositorio
+              <svg
+                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div
+          class="max-w-sm bg-gray-800 border border-gray-700 rounded-lg shadow-md duration-200 hover:scale-105 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="https://placehold.co/600x400"
+              alt="CV"
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                CV
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-400">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              quis lorem ut libero malesuada feugiat.
+            </p>
+            <a
+              href="#"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800"
+            >
+              Ver repositorio
+              <svg
+                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div
+          class="max-w-sm bg-gray-800 border border-gray-700 rounded-lg shadow-md duration-200 hover:scale-105 hover:shadow-xl"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="https://placehold.co/600x400"
+              alt="CV"
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                CV
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-400">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              quis lorem ut libero malesuada feugiat.
+            </p>
+            <a
+              href="#"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800"
+            >
+              Ver repositorio
+              <svg
+                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16">
+      <h2
+        class="mb-4 text-4xl font-bold tracking-tight leading-none text-white text-center"
+      >
+        Experiencia
+      </h2>
+      <div class="grid gap-8 lg:grid-cols-2">
+        <div class="flex flex-col gap-4">
+          <h3 class="text-2xl font-bold text-white">Frontend Developer</h3>
+          <p class="text-gray-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis
+            lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id
+            imperdiet et, porttitor at sem. Curabitur non nulla sit amet nisl
+            tempus convallis quis ac lectus. Nulla quis lorem ut libero
+            malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et,
+            porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis
+            quis ac lectus.
+          </p>
+        </div>
+        <div class="flex flex-col gap-4">
+          <h3 class="text-2xl font-bold text-white">Backend Developer</h3>
+          <p class="text-gray-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis
+            lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id
+            imperdiet et, porttitor at sem. Curabitur non nulla sit amet nisl
+            tempus convallis quis ac lectus. Nulla quis lorem ut libero
+            malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et,
+            porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis
+            quis ac lectus.
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
