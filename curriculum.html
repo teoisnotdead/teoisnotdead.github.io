@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículum Alfredo Saavedra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="./assets/js/menu.js"></script>
+  </head>
+
+  <body class="bg-gray-900">
+    <nav class="border-gray-700 bg-gray-900">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="https://teoisnotdead.github.io/"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img
+            src="./assets/img/teodev-fondo-oscuro-sin-leyenda.png"
+            class="h-8"
+            alt="TEODEV Logo"
+          />
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600 text-gray-400"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="flex flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 bg-gray-800"
+          >
+            <li>
+              <a
+                href="./curriculum.html"
+                class="block py-2 px-3 rounded md:bg-transparent text-[#25abe0]"
+                aria-current="page"
+                >Inicio</a
+              >
+            </li>
+            <li>
+              <a
+                href="#experiencia"
+                class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent text-white hover:text-[#25abe0]"
+                >Experiencia</a
+              >
+            </li>
+            <li>
+              <a
+                href="#formacion"
+                class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent text-white hover:text-[#25abe0]"
+                >Formación</a
+              >
+            </li>
+            <li>
+              <a
+                href="./index.html"
+                class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent text-white hover:text-[#25abe0]"
+                >Portafolio</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="bg-gray-900">
+      <div class="container mx-auto py-8">
+          <div class="grid grid-cols-4 sm:grid-cols-12 gap-6 px-4">
+              <div class="col-span-4 sm:col-span-3">
+                  <div class="bg-gray-800 shadow rounded-lg p-6">
+                      <div class="flex flex-col items-center">
+                          <img src="./assets/img/foto.png" class="w-32 h-32 bg-gray-300 rounded-full mb-4 shrink-0">
+  
+                          </img>
+                          <h1 class="text-xl font-bold text-white">Alfredo Saavedra</h1>
+                          <p class="text-gray-400">Full Stack Developer</p>
+                          <p class="text-gray-400">+56 9 12345678</p>
+                          <p class="text-gray-400">alfredo.saavedra.sm@gmail.com</p>
+                          <div class="mt-6 flex flex-wrap gap-4 justify-center">
+                              <a href="./index.html#contacto" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Contacto</a>
+                          </div>
+                      </div>
+                      <hr class="my-6 border-t border-gray-300">
+                      <div class="flex flex-col">
+                          <span class="text-white uppercase font-bold tracking-wider mb-2">Habilidades</span>
+                          <ul class="text-gray-400">
+                              <li class="mb-2">JavaScript</li>
+                              <li class="mb-2">Angular</li>
+                              <li class="mb-2">React</li>
+                              <li class="mb-2">Node.js</li>
+                              <li class="mb-2">HTML/CSS</li>
+                              <li class="mb-2">TailwindCSS</li>
+                              <li class="mb-2">Bootstrap</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-span-4 sm:col-span-9">
+                  <div class="bg-gray-800 shadow rounded-lg p-6">
+                      <h2 class="text-xl font-bold mb-4 text-white">Sobre mí</h2>
+                      <p class="text-gray-400">
+                        Como desarrollador con fuerte orientación hacia el Frontend y experiencia
+                        significativa en proyectos personales y freelance de Full Stack, aporto
+                        más de 5 años de experiencia creando aplicaciones web. Mi enfoque práctico
+                        se ha perfeccionado a través de la colaboración en diversas plataformas,
+                        aplicando un código estructurado y eficiente que facilita la escalabilidad
+                        y mantenimiento. Aunque mi experiencia corporativa está en el Frontend, mi
+                        curiosidad y dedicación me han llevado a expandir mis habilidades al
+                        Backend, donde he aplicado Node.js y otras tecnologías en proyectos
+                        independientes y contribuciones freelance, gestionando tanto la interfaz
+                        de usuario como la lógica del servidor.
+                      </p>
+  
+                      <h3 class="font-semibold text-center mt-3 mb-2 text-white">
+                          Encuentrame en
+                      </h3>
+                      <div class="flex justify-center items-center gap-6 my-6">
+                          <a class="text-white hover:text-[#25abe0]" aria-label="Visita mi LinkedIn" href=""
+                              target="_blank">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-6">
+                                  <path fill="currentColor"
+                                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                  </path>
+                              </svg>
+                          </a>
+                          <a class="text-white hover:text-[#25abe0]" aria-label="Visita mis Instagram" href=""
+                              target="_blank">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-6">
+                                  <path fill="currentColor"
+                                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                  </path>
+                              </svg>
+                          </a>
+                          <a class="text-white hover:text-[#25abe0]" aria-label="Visita mi Github" href=""
+                              target="_blank">
+                            GitHub
+                            </a>
+                      </div>
+  
+  
+                      <h2 id="experiencia" class="text-xl font-bold mt-6 mb-4 text-white">Experiencia</h2>
+                      <div class="mb-6">
+                          <div class="flex justify-between flex-wrap gap-2 w-full">
+                              <span class="text-white font-bold">Desarrollador Frontend</span>
+                              <p>
+                                  <span class="text-white mr-2">en KUBOS</span>
+                                  <span class="text-white">2019 - Actualidad</span>
+                              </p>
+                          </div>
+                          <p class="mt-2 text-gray-400">
+                            He liderado y contribuido en la creación y mantenimiento de soluciones digitales avanzadas. Mi rol en KUBOS desde septiembre de 2019 hasta la fecha me ha involucrado en el desarrollo de múltiples proyectos utilizando marcos de trabajo modernos como AngularJS, Angular y React,
+                            siempre con un enfoque en el Desarrollo Guiado por Pruebas (TDD). He estado a cargo de mantener y mejorar el servicio de notificaciones, garantizando una comunicación fluida y eficiente. También me encargué del desarrollo del frontend para una plataforma de gestión de incentivos, optimizando el proceso de cálculo y pago para ejecutivos con metas alcanzadas. Como líder técnico, he dirigido proyectos para la automatización de procesos contables y el desarrollo de interfaces para sistemas financieros críticos, incluyendo la gestión de valores para una entidad bancaria privada y el desarrollo de un sistema para agentes de inversión. Mi experiencia refleja un compromiso constante con la excelencia técnica y la innovación en el frente tecnológico.
+                          </p>
+                      </div>
+                      <div class="mb-6">
+                          <div class="flex justify-between flex-wrap gap-2 w-full">
+                              <span class="text-white font-bold">Full Stack Developer</span>
+                              <p>
+                                  <span class="text-white mr-2">Freelance</span>
+                                  <span class="text-white">2022 - Actualidad</span>
+                              </p>
+                          </div>
+                          <p class="mt-2 text-gray-400">
+                            Como desarrollador Fullstack freelance desde marzo de 2022 hasta la actualidad, he diseñado y construido aplicaciones web robustas y eficientes. Entre mis proyectos clave se encuentra el desarrollo de una aplicación para la gestión de series televisivas, que incluye operaciones CRUD, utilizando Node.js con Express y MongoDB para el backend, y React para el frontend. Este sistema se caracteriza por su eficaz presentación del catálogo de series, y cuenta con un despliegue del backend en Railway y del frontend en Netlify, asegurando una alta disponibilidad y un rendimiento óptimo.
+                          </p>
+                      </div>
+                      <div class="mb-6">
+                          <div class="flex justify-between flex-wrap gap-2 w-full">
+                              <span class="text-white font-bold">Diseñador/Maquetador Web</span>
+                              <p>
+                                  <span class="text-white mr-2">en Kubos</span>
+                                  <span class="text-white">2015 - 2018</span>
+                              </p>
+                          </div>
+                          <p class="mt-2 text-gray-400">
+                            Durante mi tiempo como Diseñador y Maquetador Web en KUBOS, de noviembre de 2015 a junio de 2018, lideré la renovación y estructuración de múltiples proyectos web. Mi enfoque se centró en mejorar la usabilidad y la estética visual de las interfaces de usuario, contribuyendo significativamente a la experiencia general del usuario.
+                            Además, mantuve una colaboración estrecha con los equipos de backend para asegurar la integración de soluciones de frontend eficaces y ágiles utilizando AngularJS. Este esfuerzo conjunto permitió la creación de aplicaciones web que no solo son visualmente atractivas sino también técnicamente avanzadas y funcionales.
+                          </p>
+                      </div>
+
+                      <hr>
+
+                      <div class="my-6">
+                        <h2 id="formacion" class="text-xl font-bold text-white mb-4">Formación</h2>
+                        <ul class="space-y-2">
+                          <li class="text-gray-400"><span class="text-gray-200">Ingeniería en Informática</span> - IACC (2022 - Actualidad) Cursando 3er año</li>
+                          <li class="text-gray-400"><span class="text-gray-200">React, Angular, Javascript, Typescript, NodeJS, Patrones de diseño</span> - Udemy - 2020</li>
+                          <li class="text-gray-400"><span class="text-gray-200">Node de 0 a experto, Principios SOLID y Clean Code, Qwik</span> - Devtalles Fernando Herrera - 2023</li>
+                          <li class="text-gray-400"><span class="text-gray-200">Desarrollo Web</span> - Platzi - 2015</li>
+                          <li class="text-gray-400"><span class="text-gray-200">Analista programador computacional</span> - DuocUC (4to Semestre) - 2008 - 2010</li>
+                          <li class="text-gray-400"><span class="text-gray-200">Diseño y programación multimedia</span> - Inacap (3er Semestre) - 2013 - 2014</li>
+                        </ul>
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+    </main>
+  </body>
+</html>

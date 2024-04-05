@@ -58,7 +58,7 @@
           >
             <li>
               <a
-                href="#"
+                href="./index.html"
                 class="block py-2 px-3 rounded md:bg-transparent text-[#25abe0]"
                 aria-current="page"
                 >Inicio</a
@@ -66,28 +66,21 @@
             </li>
             <li>
               <a
-                href="#"
+                href="#proyectos"
                 class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent text-white hover:text-[#25abe0]"
                 >Proyectos</a
               >
             </li>
             <li>
               <a
-                href="#"
-                class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent text-white hover:text-[#25abe0]"
-                >Experiencia</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
+                href="#contacto"
                 class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent text-white hover:text-[#25abe0]"
                 >Contacto</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="./curriculum.html"
                 class="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent text-white hover:text-[#25abe0]"
                 >CV</a
               >
@@ -117,8 +110,8 @@
           MongoDB, MySQL, entre otras.
         </p>
         <a
-          href="#"
-          class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg  bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 focus:ring-blue-900"
+          href="#proyectos"
+          class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 focus:ring-blue-900"
         >
           Proyectos
           <svg
@@ -135,7 +128,7 @@
           </svg>
         </a>
         <a
-          href="#"
+          href="#contacto"
           class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-700 rounded-lg hover:bg-gray-700 focus:ring-gray-800"
         >
           Contacto
@@ -143,14 +136,15 @@
       </div>
       <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
         <img
-          src="https://placehold.co/600x400/png"
+          class="rounded-full"
+          src="./assets/img/foto.png"
           alt="Imagen de perfil"
         />
       </div>
     </section>
 
     <section class="max-w-screen p-4 text-white">
-      <h2
+      <h2 id="proyectos"
         class="mb-4 text-4xl font-bold tracking-tight leading-none text-white text-center"
       >
         Proyectos
@@ -289,38 +283,66 @@
       </div>
     </section>
 
-    <section class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16">
-      <h2
-        class="mb-4 text-4xl font-bold tracking-tight leading-none text-white text-center"
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto">
+      <h2 id="contacto" class="text-xl font-bold text-white mb-4">Contacto</h2>
+      <form action="TU_ENDPOINT_DE_ENVIO" method="POST">
+        <div class="mb-4">
+          <label for="name" class="block text-gray-400 mb-1">Nombre</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="bg-gray-700 text-white rounded border border-gray-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-600 block w-full p-2.5"
+            placeholder="Tu nombre completo"
+            required
+          />
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-400 mb-1">Correo</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="bg-gray-700 text-white rounded border border-gray-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-600 block w-full p-2.5"
+            placeholder="tuemail@ejemplo.com"
+            required
+          />
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-gray-400 mb-1">Mensaje</label>
+          <textarea
+            id="message"
+            name="message"
+            class="bg-gray-700 text-white rounded border border-gray-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-600 block w-full p-2.5"
+            rows="4"
+            placeholder="Escribe tu mensaje aquí"
+            required
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+        >
+          Enviar
+        </button>
+      </form>
+    </div>
+
+    <footer>
+      <div
+        class="max-w-screen-xl px-4 py-8 mx-auto text-white flex flex-col items-center"
       >
-        Experiencia
-      </h2>
-      <div class="grid gap-8 lg:grid-cols-2">
-        <div class="flex flex-col gap-4">
-          <h3 class="text-2xl font-bold text-white">Frontend Developer</h3>
-          <p class="text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis
-            lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id
-            imperdiet et, porttitor at sem. Curabitur non nulla sit amet nisl
-            tempus convallis quis ac lectus. Nulla quis lorem ut libero
-            malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et,
-            porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis
-            quis ac lectus.
-          </p>
-        </div>
-        <div class="flex flex-col gap-4">
-          <h3 class="text-2xl font-bold text-white">Backend Developer</h3>
-          <p class="text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis
-            lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id
-            imperdiet et, porttitor at sem. Curabitur non nulla sit amet nisl
-            tempus convallis quis ac lectus. Nulla quis lorem ut libero
-            malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et,
-            porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis
-            quis ac lectus.
-          </p>
-        </div>
+        <img
+          src="./assets/img/teodev-fondo-oscuro-sin-leyenda.png"
+          class="h-10 mb-4"
+          alt="TEODEV Logo"
+        />
+        <p>
+          Desarrollado por Alfredo Saavedra<a href="#" class="text-[#25abe0]"
+            >(teoDev)</a
+          >
+        </p>
       </div>
-    </section>
+    </footer>
   </body>
 </html>
