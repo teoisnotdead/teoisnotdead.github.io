@@ -4,6 +4,7 @@
 
 - HTML
 - CSS(Tailwind)
+- JavaScript
 
 ## Descripción
 
@@ -21,4 +22,4 @@ Este es un portafolio personal desarrollado para el examen de DesafioLatam.
 ![Captura][screenshot]
 
 [logo]: ./assets/img/teodev-fondo-oscuro-sin-leyenda.png 'Logo TeoDev'
-[screenshot]: ./assets/img/teodev-fondo-oscuro-sin-leyenda.png 'Captura Portafolio'
+[screenshot]: ./assets/img/readme.png 'Captura Portafolio'
