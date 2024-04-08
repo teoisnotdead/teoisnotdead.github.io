@@ -8,7 +8,7 @@
 
 ## Descripción
 
-Este es un portafolio personal desarrollado para el examen de DesafioLatam.
+Este es un portafolio personal desarrollado para el examen de DesafioLatam - Modulo 1 Introducción al Desarrollo Web.
 
 ## Links
 
