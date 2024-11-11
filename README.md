@@ -21,5 +21,5 @@ Este es un portafolio personal desarrollado para el examen de DesafioLatam.
 ![Marca][logo]
 ![Captura][screenshot]
 
-[logo]: ./assets/img/teodev-fondo-oscuro-sin-leyenda.png 'Logo TeoDev'
+[logo]: ./assets/img/TEOD_V2.svg 'Logo TeoDev'
 [screenshot]: ./assets/img/readme.png 'Captura Portafolio'
